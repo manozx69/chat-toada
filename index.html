@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Chat Musical</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="screen" id="loading">
+    <h2>Carregando chat musical...</h2>
+    <div class="spinner"></div>
+  </div>
+
+  <div class="screen" id="startScreen">
+    <img src="/scr/ab67616d00001e02f238360fd9ccd3d67e1500d8.jpg" alt="Capa do Álbum" class="album-cover">
+    <h1>Xamã Bahsese</h1>
+    <p><strong>Boi Bumbá Garantido</strong> • Boi do Povo, Boi do Povão</p>
+    <button onclick="iniciarChat()">Entrar no chat</button>
+  </div>
+
+  <div class="chat-container" id="chat">
+    <div id="scroll-anchor"></div>
+  </div>
+
+  <div class="controls">
+    <button class="control" id="prevBtn">⬅️ Voltar</button>
+    <button class="control" id="nextBtn">Avançar ➡️</button>
+  </div>
+
+  <audio id="bgMusic" src="musica.mp3" preload="auto"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
