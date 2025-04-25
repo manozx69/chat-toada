@@ -11,7 +11,7 @@ const conversa = [
   { user: "O Buhpó com a força Bahsese<br>Vai te curar", bot: "scr/2.png" },
   { user: "Kumuã curandeiro, Yai, Kumu, Baya<br>No terreiro vão chegar", bot: "scr/3.png" },
   { user: "O Buhpó com a força Bahsese<br>Vai te curar", bot: "scr/4.png" },
-  { user: "Vai cantar, vai dançar, inalar paricá", bot: "Xamanismo No Crepúsculo Tropical.png"},
+  { user: "Vai cantar, vai dançar, inalar paricá", bot: "scr/Xamanismo No Crepúsculo Tropical.png"},
   { user: "O xamã vai lutar e acalmar o Waimansã", bot: "scr/6.png" },
   { user: "A dança no céu no Jirau Acará", bot: "scr/7.png" },
   { user: "Jararaca no Yaureté Ayã Yã", bot: "scr/8.png" },
