@@ -7,27 +7,27 @@ const startScreen = document.getElementById("startScreen");
 const bgMusic = document.getElementById("bgMusic");
 
 const conversa = [
-  { user: "Kumuã curandeiro, Yai, Kumu, Baya<br>No terreiro vão chegar", bot: "scr/1.png" },
-  { user: "O Buhpó com a força Bahsese<br>Vai te curar", bot: "scr/2.png" },
-  { user: "Kumuã curandeiro, Yai, Kumu, Baya<br>No terreiro vão chegar", bot: "scr/3.png" },
-  { user: "O Buhpó com a força Bahsese<br>Vai te curar", bot: "scr/4.png" },
-  { user: "Vai cantar, vai dançar, inalar paricá", bot: "scr/Xamanismo No Crepúsculo Tropical.png"},
-  { user: "O xamã vai lutar e acalmar o Waimansã", bot: "scr/6.png" },
-  { user: "A dança no céu no Jirau Acará", bot: "scr/7.png" },
-  { user: "Jararaca no Yaureté Ayã Yã", bot: "scr/8.png" },
-  { user: "Do cosmo do povo Tukano vem a salvação", bot: "scr/9.png" },
-  { user: "Benzedeiros de espíritos", bot: "scr/10.png" },
-  { user: "Rebojo de força cósmica", bot: "scr/11.png" },
-  { user: "Rezas de seres alados", bot: "scr/12.png" },
-  { user: "Na corrente de vento desce a corredeira<br>Expulsa os males pro fundos da Piranheira", bot: "scr/13.png" },
-  { user: "Dança, canta xamã, Bahsese", bot: "scr/14.png" },
-  { user: "Faz pajelança da cura e da Fé", bot: "scr/15.png" },
-  { user: "Dança, canta Tukano pajé", bot: "scr/16.png" },
-  { user: "Kumuã Bahsesé", bot: "scr/17.png" },
-  { user: "Dança, canta xamã, Bahsese", bot: "scr/18.png" },
-  { user: "Faz pajelança da cura e da Fé", bot: "scr/19.png" },
-  { user: "Dança, canta Tukano pajé", bot: "scr/20.png" },
-  { user: "Kumuã Bahsesé", bot: "scr/21.png" }
+  { user: "Kumuã curandeiro, Yai, Kumu, Baya<br>No terreiro vão chegar", bot: "1.png" },
+  { user: "O Buhpó com a força Bahsese<br>Vai te curar", bot: "2.png" },
+  { user: "Kumuã curandeiro, Yai, Kumu, Baya<br>No terreiro vão chegar", bot: "3.png" },
+  { user: "O Buhpó com a força Bahsese<br>Vai te curar", bot: "4.png" },
+  { user: "Vai cantar, vai dançar, inalar paricá", bot: "5.png"},
+  { user: "O xamã vai lutar e acalmar o Waimansã", bot: "6.png" },
+  { user: "A dança no céu no Jirau Acará", bot: "7.png" },
+  { user: "Jararaca no Yaureté Ayã Yã", bot: "8.png" },
+  { user: "Do cosmo do povo Tukano vem a salvação", bot: "9.png" },
+  { user: "Benzedeiros de espíritos", bot: "10.png" },
+  { user: "Rebojo de força cósmica", bot: "11.png" },
+  { user: "Rezas de seres alados", bot: "12.png" },
+  { user: "Na corrente de vento desce a corredeira<br>Expulsa os males pro fundos da Piranheira", bot: "13.png" },
+  { user: "Dança, canta xamã, Bahsese", bot: "14.png" },
+  { user: "Faz pajelança da cura e da Fé", bot: "15.png" },
+  { user: "Dança, canta Tukano pajé", bot: "16.png" },
+  { user: "Kumuã Bahsesé", bot: "17.png" },
+  { user: "Dança, canta xamã, Bahsese", bot: "18.png" },
+  { user: "Faz pajelança da cura e da Fé", bot: "19.png" },
+  { user: "Dança, canta Tukano pajé", bot: "20.png" },
+  { user: "Kumuã Bahsesé", bot: "21.png" }
 ];
 
     let passoAtual = -1;
